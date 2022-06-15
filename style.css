@@ -54,7 +54,7 @@ nav{
     background-image: linear-gradient(315deg, #36096d 0%, #37d5d6 74%);
     transition: all 0.7s ease-in-out;
     z-index: -1;
-    transform: translateX(-300px) skew(-20deg);
+    transform: translateX(-300px) skew(20deg);
 }
 .nav-link:hover::before {
     transform: translateX(0px) skew(-20deg);
@@ -306,9 +306,6 @@ li{
 
     /* Main section styling */
     #cards{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         text-align: center;
     }
     #grow, #flowing, #users{
