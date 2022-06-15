@@ -27,6 +27,7 @@ nav{
     width: 200px;
     height: 48px;
     color: rgb(0,37,46);
+    white-space: nowrap;
     text-decoration: none;
     background-color: #fff;
     border-radius: 50px;
