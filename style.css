@@ -76,7 +76,7 @@ main{
     height: 439px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 0px 75px;
 }
 #grow, #flowing, #users, #build{
